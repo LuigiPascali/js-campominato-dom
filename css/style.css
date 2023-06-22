@@ -1,59 +1,23 @@
-
-/* 
-    HEADER
-*/
-
-
-
 /* 
     MAIN
 */
 
+h1 {color: var(--light_color);}
 
+body {background-image: url("../img/img_bg.jpg");background-repeat: no-repeat;background-size: cover;}
 
-/* 
-    FOOTER
-*/
+.row { display: flex;}
 
+.cell {display: flex;justify-content: center;align-items: center;text-align: center;height: 3.125rem;width: 3.125rem;color: var(--light_color);background-color: transparent;border: 1px solid var(--grid_cell_border);cursor: pointer;box-shadow: 0 0 .3125rem rgba(0, 0, 0, 0.3);transition: transform 0.2s ease-in-out;}
+  
+.cell.clicked {background-color: var(--clicked_color);}
+ 
+.cell:hover {background-color: var(--hover_color);transform: translateY(-0.125rem);box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, 0.3);}
 
+.btn {background-color: var(--button_color); color: var(--light_color); padding: .625rem 1.25rem; border-radius: .3125rem; text-transform: uppercase; box-shadow: 0rem .125rem .3125rem rgba(0, 0, 0, 0.25); cursor: pointer;}
+  
+.btn:hover {background-color: var(--hover_button_color); color: var(--light_color);}
 
+#reset-button {background-color: var(--reset_color);}
 
-/* 
-   !RESPONSIVE DESIGN
-*/
-
-/* Min width 576px */
-
-@media screen and (min-width: 576px) {
-    
-}
-
-/* Min width 768px */
-
-@media screen and (min-width: 768px) {
-    
-}
-
-/* Min width 992px */
-
-@media screen and (min-width: 992px) {
-    
-}
-
-/* Max width 992px */
-
-@media screen and (max-width: 992px) {
-    
-}
-
-/* Max width 768px */
-
-@media screen and (max-width: 768px) {
-    
-}
-
-/* Max width 576px */
-
-@media screen and (max-width: 576px) {
-    
-}
+#reset-button:hover {background-color: var(--reset_hover_color);}

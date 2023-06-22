@@ -7,10 +7,17 @@
 */
 
 :root {
-    /* Color Palette */
+    /* Color Palette*/
     
-    --light_color:#FFFFFF ;
-    --dark_color: #0A0A0A ;
-
+    --light_color:#FFFFFF;
+    --dark_color: #0A0A0A;
+    --grid_cell_border: #999999;
+    --hover_color: #7BB79A;
+    --clicked_color: #7fbd75;
+    --button_color: #52B788;
+    --hover_button_color: #498467;
+    --reset_color: #F13030;
+    --reset_hover_color: #BF0D0D;
 }
+
 
