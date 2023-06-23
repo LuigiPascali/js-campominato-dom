@@ -26,7 +26,7 @@ body {background-image: url("../img/img_bg.jpg");background-repeat: no-repeat;ba
     
 .card p {margin: .3125rem;font-size: 1.125rem;color: var(--dark_color);}
     
-.card p span {font-weight: bold;color: var(--details_color);}
+.card p span {font-weight: bold;color: var(--details_color);margin-left: .3125rem;}
 
 .card-text {display: flex;align-items: center;}
   
