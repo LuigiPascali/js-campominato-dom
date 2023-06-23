@@ -8,7 +8,7 @@
 
 :root {
     /* Color Palette*/
-    
+   
     --light_color:#FFFFFF;
     --dark_color: #0A0A0A;
     --grid_cell_border: #999999;
@@ -18,6 +18,10 @@
     --hover_button_color: #498467;
     --reset_color: #F13030;
     --reset_hover_color: #BF0D0D;
+    --bomb_color: #9F192F;
+    --title_color: #333333;
+    --p_color: #666666;
+    --details_color: #F0000F;
 }
 
 
